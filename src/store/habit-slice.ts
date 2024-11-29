@@ -12,7 +12,9 @@ interface HabitState{
     habits: Habit[];
 }
 
-const initialState = {}
+const initialState: HabitState = {
+    habits:[],
+}
 
 const habitSlice = createSlice({
     name:"habbits",
